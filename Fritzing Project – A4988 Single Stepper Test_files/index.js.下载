@@ -1,0 +1,26 @@
+$(document).ready(function(){
+
+    /* dropdown menus */
+	$(document).ready(function() {
+        $('.dropit-menu').dropit({ action: 'click' });
+        $('.dropit-resp').dropit({ action: 'click' });
+    });
+
+	/* headlines with background pictures */
+	$('h2[data-background], h3[data-background]').each(function(idx,e){
+		var $e = $(e);
+		$e.addClass('with-background').css('background-image', 'url('+$e.attr('data-background')+')').wrapInner('<span>');
+	});
+	
+	/* small view metamenu */
+	$('a', '#nav-resp').click(function(evt){
+		evt.preventDefault();
+		var _nav = $(thid).attr('data-nav');
+		if ($('header').hasClass(_nav)) {
+			$('header').attr('class','');
+		} else {
+			$('header').attr('class', _nav);
+		}
+	});
+	
+});

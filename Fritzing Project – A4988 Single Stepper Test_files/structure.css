@@ -1,0 +1,625 @@
+body {
+	
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+	font-size: 100%;
+	line-height: 1.4em;
+	background-color: #fff;
+	font-size: 14px;
+	
+}
+
+
+    #header-container {
+
+        background-color: #d7332d;
+        width: 100%;
+
+    }
+
+		header {
+			
+			display: block;
+			position: relative;
+			margin: 0px auto;
+			padding: 0px;
+			width: 980px;
+			min-height: 130px;
+			
+		}
+		
+			header .resp {
+				
+				display: none;
+				
+			}
+	
+			#fritzing-logo {
+				
+				display: block;
+				position: absolute;
+				width: 350px;
+				height: 80px;
+				left: 0px;
+				top: 15px;
+				
+			}
+			
+				#fritzing-logo h1 {
+					
+					display: block;
+					position: absolute;
+					margin: 0px;
+					padding: 0px;
+					left: 0px;
+					right: 0px;
+					top: 0px;
+					bottom: 0px;
+					overflow: hidden;
+					text-indent: -99999px;
+					background: url(../img/fritzing-logo-white.png) 20px 12px no-repeat;
+					
+				}
+				
+					#fritzing-logo h1 a {
+						
+						display: block;
+						position: absolute;
+						margin: 0px;
+						padding: 0px;
+						left: 0px;
+						right: 0px;
+						top: 0px;
+						bottom: 0px;
+						
+					}
+				
+				#fritzing-logo p {
+					
+					display: block;
+					position: absolute;
+					width: 100px;
+					height: 28px;
+					right: 0px;
+					top: 28px;
+					margin: 0px;
+					padding: 0px;
+					color: #ffffff;
+					font-family: "OCR A Tribute", "System", fixed;
+					font-size: 12px;
+					line-height: 13px;
+					text-align: left;
+					font-weight: 300;
+					letter-spacing: 0.04em;
+					
+				}
+				
+					#fritzing-logo p a {
+						
+						display: block;
+						position: absolute;
+						margin: 0px;
+						padding: 0px;
+						left: 0px;
+						right: 0px;
+						top: 0px;
+						bottom: 0px;
+						color: #ffffff;
+						font-family: "OCR A Tribute", "System", fixed;
+						text-decoration: none;
+						
+					}
+
+            #nav-global {
+
+				display: block;
+				position: absolute;
+				right: 300px;
+				top: 95px;
+
+			}
+
+				#nav-global ul {}
+
+					#nav-global ul li {
+
+						display: block;
+						position: relative;
+						margin: 0px;
+						padding: 7px 5px 4px 5px;;
+						float: left;
+
+					}
+
+                    #nav-global ul li.fab {
+
+						background-color: #645856;
+                        border-bottom: 5px solid #362f2d;
+
+					}
+
+                    #nav-global ul li.forum {
+
+						background-color: #3799b0;
+                        border-bottom: 5px solid #175B6A;
+
+					}
+
+                    #nav-global ul li.shop {
+
+						background-color: #faa61a;
+                        border-bottom: 5px solid #916000;
+
+					}
+
+						#nav-global ul li a {
+
+							display: block;
+							position: relative;
+							margin: 0px;
+							padding: 0px 8px;
+							font-family: "OCR A Tribute", "System", fixed;
+							font-size: 16px;
+							font-weight: 300;
+							letter-spacing: 0.022em;
+							color: #fff;
+							text-decoration: none;
+                            text-transform: uppercase;
+
+						}
+
+                        #nav-global ul li a.active {
+
+                            color: #fff;
+
+                        }
+
+                        #nav-global ul li a:hover {
+
+                            font-weight: bold;
+
+                        }
+				
+			#nav-main {
+				
+				display: block;
+				position: relative;
+				left: 5px;
+				padding: 0px 9px;
+				top: 95px;
+				height: 36px;
+				
+			}
+			
+				#nav-main ul {}
+
+					#nav-main ul li {
+						
+						display: block;
+						position: relative;
+						margin: 0px;
+						padding: 0px;
+						height: 36px;
+						float: left;
+						
+					}
+			
+						#nav-main ul li a {
+
+							display: block;
+							position: relative;
+							height: 26px;
+							line-height: 32px;
+							margin: 0px;
+							padding: 0px 8px;
+							font-family: "OCR A Tribute", "System", fixed;
+							font-size: 16px;
+							font-weight: 300;
+							letter-spacing: 0.022em;
+							color: #fff;
+							text-decoration: none;
+
+						}
+
+						#nav-main ul li a:hover {
+
+							color: #7f2a06;
+
+						}
+						
+						#nav-main ul li.active a,
+						#nav-main ul li a.active,
+                        #nav-main ul li.active a:hover {
+							
+							font-weight: bold;
+							color: #fff;
+							
+						}
+
+
+							
+			#nav-sub {
+
+				/*display: block;*/
+                display: none;
+				position: absolute;
+				left: 0px;
+				padding: 0px 9px;
+				right: 220px;
+				top: 130px;
+				height: 36px;
+
+			}
+
+				#nav-sub ul {}
+
+					#nav-sub ul li {
+
+						display: block;
+						position: relative;
+						margin: 0px;
+						padding: 0px;
+						height: 36px;
+						float: left;
+
+					}
+
+						#nav-sub ul li a {
+
+							display: block;
+							position: relative;
+							height: 26px;
+							line-height: 26px;
+							margin: 0px 10px;
+							padding: 0px;
+							font-family: "OCR A Tribute", "System", fixed;
+							font-size: 14px;
+							font-weight: 300;
+							letter-spacing: 0.022em;
+							color: #999;
+							text-decoration: none;
+
+						}
+
+						#nav-sub ul li.active a,
+						#nav-sub ul li a.active {
+
+							border-bottom: 4px solid #999;
+
+						}
+						
+						#nav-sub ul li a:hover {
+
+							border-bottom: 4px solid #eee;
+
+						}
+
+			
+			#nav-account {
+				
+				display: block;
+				position: absolute;
+				right: 5px;
+				top: 95px;
+                width: 195px;
+				height: 36px;
+								
+			}
+			
+				#nav-account ul {}
+
+					#nav-account ul li {
+						
+						display: block;
+						position: relative;
+						margin: 0px;
+						padding: 0px;
+						height: 36px;
+						float: left;
+						
+					}
+			
+						#nav-account ul li a {
+
+							display: block;
+							position: relative;
+							height: 36px;
+							line-height: 32px;
+							margin: 0px;
+							padding: 0px;
+							font-family: "OCR A Tribute", "System", fixed;
+							font-size: 16px;
+							font-weight: 300;
+							color: #fff;
+							text-decoration: none;
+							letter-spacing: 0.022em;
+
+						}
+
+                        #nav-account ul li a:hover {
+
+                            color: #7f2a06;
+
+                        }
+						
+                        #nav-account ul li+li a {
+
+                            padding-left: 16px;
+
+                        }
+
+
+	#container {
+
+		display: block;
+		position: relative;
+		width: 980px;
+		margin: 0px auto;
+		padding: 0px;
+		background-color: #fff;
+
+	}
+
+		#main {
+			
+			display: block;
+			position: relative;
+            top: 30px;
+			background-color: #fff;
+			width: 980px;
+			padding: 0px;
+			
+		}
+		
+			#content {
+				
+				display: block;
+				position: relative;
+				width: 720px;
+				min-height: 20px;
+				margin: 0;
+				padding: 0 20px;
+				float: left;
+				
+			}
+
+
+            #sidebar-container {
+
+                display: block;
+                position: relative;
+
+            }
+
+                #search {
+
+                    display: block;
+                    position: relative;
+                    padding-left: 18px;
+                    float: left;
+
+                }
+
+                    #search input[type=text] {
+
+                        display: block;
+                        float: left;
+                        width: 158px;
+                        height: 24px;
+                        margin: 0px;
+                        padding: 0px 5px;
+                        line-height: 16px;
+                        font-size: 12px;
+                        color: #999;
+                        box-shadow: 1px 1px 1px rgba(0,0,0,0.2) inset, 0px -1px 1px rgba(0,0,0,0.1) inset;
+                        border-width: 0px;
+
+                    }
+
+                    #search input[type=submit] {
+
+                        display: block;
+                        float: left;
+                        height: 24px;
+                        margin: 0px;
+                        padding: 0px 5px;
+                        line-height: 16px;
+                        font-size: 10px;
+                        color: #999;
+                        box-shadow: 1px 1px 1px rgba(0,0,0,0.2) inset, -1px -1px 1px rgba(0,0,0,0.1) inset;
+                        border-width: 0px;
+                        background-color: #f1f1f1;
+
+                    }
+
+
+                #nav-aside {
+
+                    display: block;
+                    position: relative;
+                    right: 0px;
+                    margin: 0px;
+                    padding: 0px 20px;
+                    width: 180px;
+                    float: left;
+
+                }
+
+                    #nav-aside ul {}
+
+                        #nav-aside ul li {
+
+                            display: block;
+                            position: relative;
+                            margin: 0px;
+                            padding: 0px;
+                            height: 36px;
+                            float: left;
+
+                        }
+
+                            #nav-aside ul li a {
+
+                                display: block;
+                                position: relative;
+                                height: 36px;
+                                line-height: 41px;
+                                margin: 0px;
+                                padding: 0px;
+                                font-family: "OCR A Tribute", "System", fixed;
+                                font-size: 12px;
+                                font-weight: 300;
+                                text-transform: uppercase;
+                                color: #999999;
+                                text-decoration: none;
+                                letter-spacing: 0.027em;
+
+                            }
+
+                            #nav-aside ul li a:hover {
+
+                                color: #333;
+
+                            }
+
+                            #nav-aside ul li+li a {
+
+                                padding-left: 12px;
+
+                            }
+
+                            #nav-aside ul li a.active {
+
+                                color: #333;
+                                font-weight: normal;
+
+                            }
+
+                #sidebar {
+
+                    display: block;
+                    position: relative;
+                    width: 200px;
+                    min-height: 20px;
+                    margin: 10px 0 0 0;
+                    padding: 0 0 0 18px;
+                    float: left;
+
+                }
+	
+/* footer */
+
+#footer-container {
+
+    background-color: #ddd;
+    width: 100%;
+    border-bottom: 10px solid #989898;
+    margin-top: 30px;
+
+}
+
+    footer {
+
+        display: block;
+        position: relative;
+        width: 940px;
+        margin: 0px auto;
+        padding: 15px 0px;
+
+    }
+
+        footer p {
+
+            display: block;
+            margin: 0px;
+            padding: 5px 0px;
+            color: #989898;
+            font-size: 13px;
+            font-weight: 300;
+            min-height: 18px;
+            line-height: 18px;
+
+        }
+
+            footer p a {
+
+                font-weight: normal;
+                color: #989898;
+
+            }
+
+
+@media (max-width: 767px) {
+
+    header {
+        width: 100%;
+    }
+        #nav-responsive {
+            display: block;
+            position: relative;
+            top: 97px;
+            width: 88%;
+            padding: 0 6%;
+        }
+            #nav-responsive .dropit {
+                width: 100%;
+            }
+            #nav-responsive a {
+                color: #fff;
+                text-decoration: none;
+                display: block;
+                width: 100%;
+            }
+            #nav-responsive .dropit-submenu {
+                display: block;
+                position: relative;
+                left: 0;
+            }
+            #nav-responsive .dropit-submenu li {
+                line-height: 32px;
+            }
+        #nav-global {
+            display: none;
+        }
+        #nav-main {
+            display: none;
+        }
+        #nav-account {
+            display: none;
+        }
+        #nav-sub {
+            display: none;
+        }
+
+    #container {
+        width: 100%;
+    }
+        #main {
+            width: 100%;
+        }
+            #content {
+                width: 90%;
+                padding: 0 5%;
+            }
+            #search {
+                display: none;
+            }
+            #nav-aside {
+                display: none;
+            }
+            #sidebar {
+                width: 90%;
+                padding: 5% 5%;
+                background-color: #f3f3f3;
+            }
+
+    footer {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+}
